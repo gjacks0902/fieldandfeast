@@ -290,11 +290,6 @@ footer{
         max-width: 1200px;
     }
 
-    #main-content{
-        margin-left: 160px;
-        margin-right: 160px;
-    }
-
     main{
         margin-left: 160px;
         margin-right: 160px;
@@ -331,9 +326,14 @@ footer{
     #offerings{
         width: 850px;
     }
-    
+
     #header-offer{
         width: 850px;
+    }
+
+    #welcome{
+        margin-left: 160px;
+        margin-right: 160px;
     }
 }
 
