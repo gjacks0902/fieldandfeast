@@ -1,0 +1,245 @@
+/*CSS BY GRACIE JACKSON*/
+
+/*IMPORTED FONT*/
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+/*ROOT VARIABLES*/
+
+:root {
+    --midnight-blue: #1f2a44;
+    --olive-green: #76885b;
+    --champagne-gold: #e5c185;
+    --linen: #f8f4ec;
+    --dark-charcoal: #2b2b2b;
+    --soft-white: #faf9f6;
+
+    --fonts: 'Playfair Display', serif;
+}
+
+/*GLOBAL STYLES (mobile first/small)*/
+
+/*Top section of logo and title*/
+* {
+    max-width: 450px;
+    margin: auto;
+    font-family: var(--fonts);
+}
+
+#header-background{
+    background-color: var(--midnight-blue);
+    color: var(--soft-white);
+    text-align: center;
+    padding: 15px;
+}
+
+h1{
+    font-size: 3em;
+    padding-bottom: 15px;
+}
+
+#header-background p{
+    font-size: 0.9em;
+    font-style: italic;
+    padding-bottom: 5px;
+}
+
+header img{
+    max-width: 150px;
+}
+
+/*About us, offerings, gallery section*/
+#list-about-offering-gallery{
+    background-color: var(--champagne-gold);
+    font-weight: 800;
+    font-size: 1.15em;
+}
+
+#list-about-offering-gallery ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+#list-about-offering-gallery li{
+    list-style-type: none;
+    padding: 10px;
+}
+#list-about-offering-gallery a{
+    text-decoration: none;
+    color: var(--midnight-blue);
+}
+
+#list-about-offering-gallery a:hover{
+    color: var(--soft-white);
+}
+
+/*Welcome section*/
+#welcome{
+    border-bottom: 1px solid var(--champagne-gold);
+    padding: 15px;
+    padding-top: 25px;
+}
+
+#welcome h2{
+    font-weight: 500;
+    color: var(--midnight-blue);
+    padding-bottom: 5px;
+}
+
+#welcome p{
+    font-size: 0.85em;
+    line-height: 1.5;
+    padding-bottom: 5px;
+}
+
+/*Offering section*/
+h2{
+    font-weight: 500;
+    color: var(--midnight-blue);
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+/*display set to grid in order to make it easier for different widths*/
+#offerings{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, auto);
+    padding-bottom: 15px;
+}
+
+#artisan, #exclusive, #monthly{
+    background-color: var(--olive-green);
+    color: var(--soft-white);
+    border-radius: 10px;
+    padding: 15px;
+    margin: 7px;
+    box-shadow: 1px 1px 3px var(--dark-charcoal);
+}
+
+#offerings p {
+    font-size: 0.80em;
+    line-height: 1.5;
+}
+
+#offerings h3{
+    font-size: 1.40em;
+    font-weight: 800;
+}
+
+#monthly ul{
+    font-size: 0.80em;
+    margin: 0;
+    padding: 0;
+    list-style-position: inside;
+}
+
+/*Gallery section*/
+
+#gallery{
+    border-top: 1px solid var(--champagne-gold);
+    padding-top: 10px;
+}
+
+#gallery p{
+    font-size: 0.85em;
+    line-height: 1.5;
+    padding-bottom: 10px;
+}
+
+#gallery h2 {
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
+#img-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+}
+
+#tomatoes-img, #olive-img, #table-img, #plating-img, #basket-img{
+    border: 1px none var(--soft-white);
+    border-radius: 10px;
+    box-shadow: 1px 3px 3px #aaa;
+    overflow: hidden;
+    margin-bottom: 13px;
+}
+
+#tomatoes-img p, #olive-img p, #table-img p, #plating-img p, #basket-img p {
+    text-align: center;
+    font-style: italic;
+    font-size: 0.78em;
+}
+
+#full-button{
+    border: 1px solid var(--olive-green);
+    border-radius: 8px;
+    padding: 10px;
+    color: var(--soft-white);
+    text-align: center;
+    background-color: var(--olive-green);
+    margin-bottom: 20px;
+    font-size: 0.80em;
+}
+
+main{
+    border-bottom: 1px solid var(--champagne-gold);
+    margin-bottom: 25px;
+}
+
+/*Footer*/
+footer{
+    background-color: var(--midnight-blue);
+    text-align: center;
+    padding: 60px 50px 30px 50px;
+    font-size: 0.75em;
+    
+}
+
+#address-phone{
+    color: var(--soft-white);
+}
+
+#email-field{
+    color: var(--champagne-gold);
+    font-weight: bold;
+}
+
+#socials p{
+    display: inline-block;
+    padding-top: 40px;
+    font-weight: bold;
+}
+
+#socials a{
+    text-decoration: none;
+    color: var(--champagne-gold);
+}
+
+#socials a:hover{
+    color: var(--soft-white);
+}
+
+/*MEDIA QUERY (medium)*/
+@media (min-width: 600px){
+
+}
+
+
+
+/*MEDIA QUERY (large)*/
+@media (min-width: 900px){
+
+}
+
+
+
+/*MEDIA QUERY (extra-large)*/
+@media (min-width: 1200px){
+
+}
+
+
